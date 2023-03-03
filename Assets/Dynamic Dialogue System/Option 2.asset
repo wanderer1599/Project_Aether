@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b6fb6874b2aef54493881b498fa55e5, type: 3}
+  m_Name: Option 2
+  m_EditorClassIdentifier: 
+  storyText: The amount of buttons on here also changes as the size of the dialogue
+    box changes. Just make sure that it is big enough in order to have a single button
+    on there. It also scrolls.
+  nextState: {fileID: 0}
+  getName: 1
+  options: []
+  stateOptions: []
