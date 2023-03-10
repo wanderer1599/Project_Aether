@@ -85,4 +85,9 @@ public class Player : CharacterBase
         if (PlayerPrefs.GetString("General Boost").Equals("true") && !abilities.Contains(generalBoost)) abilities.Add(generalBoost);
         if (PlayerPrefs.GetString("Super Block").Equals("true") && !abilities.Contains(SuperBlock)) abilities.Add(SuperBlock);
     }
+
+    public void TakeDamage(int damage)
+    {
+        Debug.Log("Taking " + damage + " damage");
+    }
 }
